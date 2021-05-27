@@ -6,6 +6,6 @@ It's a proof-of-concept of the talk of HITB 2021. There are more details about r
 
 **HIGHLY RECOMMEND** 
 
-Compile It in Release mode, if you're using MSVC toolchain, Due to MSVC's performance instrumentation in Debug mode, there'll be an unexpected memory layout.
+Compile It in Release mode, if you're using MSVC toolchain. Due to MSVC's performance instrumentation in Debug mode, there'll be an unexpected memory layout.
 
 ![Demo](demo.png)
