@@ -1,5 +1,7 @@
-﻿# wowInjector
+# wowGrail
 
-Inject payload to WOW64(Windows 32 on Windows 64) process via exploit 32-bit thread snapshot. It's a proof-of-concept of HITB 2021.
+Rebuild a new to Abuse the conversion layer embedded in WOW64(Windows 32 on Windows 64), that makes malware able to launch 32-bit NTAPI interrupts, and bypass Antivirus agents in no time.
+
+It's a proof-of-concept of the talk of HITB 2021. There are more details about reversing the whole WOW64 layer by Microsoft and abuse, see *[Rebuild The Heaven's Gate: from 32 bit Hell back to Heaven Wonderland](https://conference.hitb.org/hitbsecconf2021ams/sessions/wow-hell-rebuilding-heavens-gate/)*.
 
 ![Demo](demo.png)
